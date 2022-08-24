@@ -2,6 +2,7 @@ from flask import Flask,render_template,request,redirect, url_for,flash,abort,se
 import json
 import os.path
 
+
 app = Flask(__name__)
 app.secret_key = 'Enter Your Own Random Text'
 
